@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display&display=swap');
+.right-main-drop{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 3rem;
+    font-weight: bolder;
+    text-align: left;
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif;
+    .sub-heading{
+        line-height: 2rem;
+        font-size: 1rem;
+        word-spacing: 10%;
+        letter-spacing: 0.05rem;
+        padding-right: 10rem;
+        color: rgb(78, 78, 134);
+        .span-text{
+            color: whitesmoke;
+        }
+    }
+    animation: glowing 1s linear;
+    transition: opacity .1s ease-in-out;
+}
+.direct-contact{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    .download-resume{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        margin-left: 1rem;
+    }
+    .email-me{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        padding: 0.5rem 0.5rem;
+        color: #42a5ff;
+        background: white;  
+        border-radius: 1rem;
+        font-weight: bolder;
+    }
+
+}
+@keyframes glowing {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
